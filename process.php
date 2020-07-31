@@ -1,10 +1,11 @@
 <?php 
-	if(isset($_POST['submit'])) {
-		$name = $_POST['name'];
-		$email = $_POST['email'];
 
-		echo "Your name is: ".$name;
-		echo "<br/>";
-		echo "Your email is: ".$email;
+		
+
+	if(isset($_POST['name']) || isset($_POST['uemail'])) {
+		
+
+		echo "Your name is: ".$_POST['name'];
+		echo "Your email is: ".$_POST['uemail'];
 	}
 ?>

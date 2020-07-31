@@ -16,27 +16,15 @@
 					<div class="card-title mt-5">   
 						<h4 class="text-center text-white bg-primary py-3">Registration For User<h4>
 					</div>
-					<div class="card-body">
-						<h5>Using Php</h5>
-						<form action="process.php" method="post">
-							<input type="text" name="name" placeholder="Username" class="form-control my-2">
-							<input type="text" name="email" placeholder="Email" class="form-control mb-2">
-							<button name="submit" class="btn btn-success">Sign Up!</button>
-						</form>
-					</div>
-
-					<div class="card-title mt-5">   
-						<h4 class="text-center text-white bg-primary py-3">Registration For User<h4>
-					</div>
 
 					<div class="card-body">
-						<h5>Using jquery</h5>
 						<form>
 							<input type="text" id="username" placeholder="Username" class="form-control my-2">
 							<input type="email" id="useremail" placeholder="Email" class="form-control mb-2">
 							<button id="btn" class="btn btn-success">Sign Up!</button>
 						</form>
 					</div>
+					<div class="msg"></div>
 				</div>
 			</div>
 		</div>
