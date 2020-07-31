@@ -8,6 +8,7 @@
 </head>
 <body>
 	<button id="data">Send</button>
+	<div id="display"></div>
 
 	<script type="text/javascript">
 		document.getElementById('data').addEventListener('click', myFun);
@@ -18,7 +19,11 @@
 			
 			xhr.onload = function() {
 				if(xhr.status == 200) {
-					document.write(this.responseText);
+					//document.write(this.responseText); 
+					//       OR
+					document.getElementById('display').innerHTML = xhr.responseText;
+				} else {
+					document.write("Not found, Check your page name and try again!");
 				}
 			}
 
