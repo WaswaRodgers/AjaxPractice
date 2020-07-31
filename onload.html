@@ -13,7 +13,17 @@
 		document.getElementById('data').addEventListener('click', myFun);
 
 		function myFun() {
-			document.write('Working');
+			var xhr = new XMLHttpRequest();
+			xhr.open('GET', 'demo.txt', true);
+			
+			xhr.onload = function() {
+				if(xhr.status == 200) {
+					document.write(this.responseText);
+				}
+			}
+
+			xhr.send();
+
 		}
 	</script>
 
