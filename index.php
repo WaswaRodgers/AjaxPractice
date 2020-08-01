@@ -7,7 +7,7 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 </head>
-<body class="bg-success">
+<body class="bg-dark">
 	
 	<div class="container">
 		<div class="row">
@@ -19,12 +19,13 @@
 
 					<div class="card-body">
 						<form>
-							<input type="text" id="username" placeholder="Username" class="form-control my-2">
-							<input type="email" id="useremail" placeholder="Email" class="form-control mb-2">
+							<input type="text" id="username" placeholder="User Name" class="form-control my-2">
+							<input type="email" id="useremail" placeholder="User Email" class="form-control mb-2">
 							<button id="btn" class="btn btn-success">Sign Up!</button>
 						</form>
+						<div id="msg" class="text-center"></div>
 					</div>
-					<div class="msg"></div>
+
 				</div>
 			</div>
 		</div>
